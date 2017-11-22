@@ -1,0 +1,27 @@
+
+#c1,#c2,#c3{
+   float: left;
+ width: 32%;
+ margin-right: 2%;
+ padding: 20px;
+    margin:5px;
+ background:red;
+ box-sizing: border-box;
+}
+#c3{
+    margin-right: 0;
+}
+#containers{
+   width:auto;
+    margin:5px;
+    
+    background:green;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 12px 0 6px 0;
+}
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
