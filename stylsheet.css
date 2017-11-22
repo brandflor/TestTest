@@ -27,8 +27,8 @@ padding: 0;
 	top: 0;
   	left: 10%;
   	width: 80%;
-    
-    background-color:rgba(62, 94, 122, 0.64);
+    margin:auto;
+    background-color:#f39100;
     background-size: 100%;
   	text-align: center;
   	font-family: sans-serif;
@@ -43,3 +43,38 @@ padding: 0;
     top:auto;
     
 }
+form {
+    position: fixed;
+    margin:10%;
+    
+   /* border: 3px solid #f1f1f1;*/
+}
+
+/* Full-width inputs */
+
+
+
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Center the avatar image inside this container */
+
+/* Avatar image */
+
+/* Add padding to containers */
+.container {
+    padding: 0;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
